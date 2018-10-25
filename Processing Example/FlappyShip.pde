@@ -1,3 +1,5 @@
+//This is the main file that runs the game
+
 Ship player1;
 Ship player2;
 ArrayList<Block> blockList = new ArrayList<Block>();
