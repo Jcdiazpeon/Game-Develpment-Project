@@ -1,3 +1,5 @@
+//By Jose Diaz
+
 JawBreaker character = new JawBreaker(0, 0); //Creates object 
 
 void setup(){
