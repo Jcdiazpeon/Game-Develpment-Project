@@ -1,3 +1,5 @@
+//By Jose Diaz
+
 class JawBreaker{
   
   String name = "jawBreaker";
