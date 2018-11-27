@@ -15,12 +15,11 @@ class JawBreaker{
   void show(){
     fill(250, 0, 0); // set the rect color (optional)
     rectMode(CENTER); // draws the rect starting from the center (optional)
-    rect(xLocation, yLocation, l, w);
+    rect(xLocation, yLocation, l, w); //draws rectangle
   }
   
   void move(){
-    xLocation = mouseX;
+    xLocation = mouseX; // gets X coordinate of your mouse
     yLocation = mouseY;
   }
-  
 }
