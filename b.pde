@@ -28,7 +28,7 @@ public class Guns
     if(key == 'a')
     {
       x--;
-    }
+    }//keys for direction of gun
     if(key == CODED)
     {
       if(keyCode == UP)
@@ -74,6 +74,7 @@ public class Guns
           for(int i = 284; i > 0 - y; i = i - 5)
           {
             rect(303 + x, i + y, 5, 5);
+            //trying to get this to work with exceptions
             //Thread.sleep(2000);
           }
           /*int dot = 284 + y;
