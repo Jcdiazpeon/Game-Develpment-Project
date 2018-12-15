@@ -76,6 +76,7 @@ public class Guns
             rect(303 + x, i + y, 5, 5);
             //trying to get this to work with exceptions
             //Thread.sleep(2000);
+            //delay(2000); //Try this
           }
           /*int dot = 284 + y;
           int xLoc = 303 + x;
