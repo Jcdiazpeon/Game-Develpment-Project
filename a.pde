@@ -10,7 +10,9 @@ void draw()
 {
   background(0);
   blaster.display();
+  //player
   ellipse(306 + x, 306 + y, 21, 21);
+  //movement with wasd keys
   if(key == 'w')
   {
      y--;
